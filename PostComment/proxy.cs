@@ -15,7 +15,6 @@ namespace PostComment
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Post", Namespace="http://schemas.datacontract.org/2004/07/PostComment", IsReference=true)]
     public partial class Post : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -43,7 +42,7 @@ namespace PostComment
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute()]
+        /*[System.Runtime.Serialization.DataMemberAttribute()]
         public PostComment.Comment[] Comments
         {
             get
@@ -106,12 +105,11 @@ namespace PostComment
             {
                 this.PostIdField = value;
             }
-        }
+        }*/
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Comment", Namespace="http://schemas.datacontract.org/2004/07/PostComment", IsReference=true)]
     public partial class Comment : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -139,7 +137,7 @@ namespace PostComment
             }
         }
         
-        [System.Runtime.Serialization.DataMemberAttribute()]
+        /*[System.Runtime.Serialization.DataMemberAttribute()]
         public int CommentId
         {
             get
@@ -202,7 +200,7 @@ namespace PostComment
             {
                 this.TextField = value;
             }
-        }
+        }*/
     }
 }
 

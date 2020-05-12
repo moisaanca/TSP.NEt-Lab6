@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWCF", "HostWCF\HostWCF.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{6A172B4D-9E2D-4060-9C65-B1E64201D59E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{2DDF0A60-D3B7-4B79-B437-05F4E745CB60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6A172B4D-9E2D-4060-9C65-B1E64201D59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A172B4D-9E2D-4060-9C65-B1E64201D59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A172B4D-9E2D-4060-9C65-B1E64201D59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDF0A60-D3B7-4B79-B437-05F4E745CB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDF0A60-D3B7-4B79-B437-05F4E745CB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDF0A60-D3B7-4B79-B437-05F4E745CB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDF0A60-D3B7-4B79-B437-05F4E745CB60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
